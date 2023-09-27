@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pix</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"> </script>
+
+      <section class="form-container">
+        <div class="container">
+            <form action="">
+                <div class="input-single">
+                    <label for="numberId">Valor</label>
+                    <input type="number" name="" id="numberId" class="number__input">
+                </div>
+
+                <label for="radioButton" class="radio">
+                    <input type="radio" name="" id="radioId" class="radio__input">
+                    <div class="radio__radio"></div>
+                    Pix
+                </label>
+
+                <label for="radioButton" class="radio">
+                    <input type="radio" name="" id="radioId" class="radio__input">
+                    Cartão de Crédito
+                </label>
+    
+                <div class="btnInformar">
+                    <button onclick="abrirAlerta()" type="submit">Informar dados</button>
+                </div>
+
+                <div class="margin">
+                    
+                    <h1>PIX</h1>
+
+                    <div class="input-single">
+                        <label for="numberId">CPF</label>
+                        <input type="number" name="" id="numberId" class="number__input">
+                    </div>
+
+                </div>
+
+                <h4>Total:</h4>
+
+                <div class="btnPagar">
+                    <button onclick="abrirAlerta()" type="submit">Pagar</button>
+                </div>
+   
+            </form>
+        </div>
+      </section>
+</body>
+</html>

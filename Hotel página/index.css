@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-position: center;
+    ;
+}
+
+.destaque{ 
+    max-height:300px;
+    max-width:100%
+}
+
+.hotel{
+    max-height: 25px;
+    max-width:100%;
+    float:left;
+    display: inline-flex;
+}
+
+.quarto{
+    max-height: 150px;
+    max-width:100%
+}
+
+.marginDestaque{
+    border : 1px solid #ffffff;
+    padding: 2%;
+    margin: 30px 0;
+    
+}
+
+.marginHotel{
+    border : 1px solid #ffffff;
+    padding: 2%;
+    margin: 30px 0;
+    text-align: center; 
+    
+}
+
+.marginQuarto{
+    border : 1px solid #ffffff;
+    padding: 2%;
+    margin: 30px 0;
+    text-align: center;
+   
+}
+
+.marginReserva{
+    border : 1px solid #ffffff;
+    padding: 2%;
+    margin: 30px 0;
+}
+
+button{
+    padding: 2px 15px;
+}
+

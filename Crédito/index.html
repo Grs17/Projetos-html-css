@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crédito</title>
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"> </script>
+
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <div class="input-single">
+                    <label for="numberId">Valor</label>
+                    <input type="number" name="" id="numberId" class="number__input">
+                </div>
+
+                <label for="radioButton" class="radio">
+                    <input type="radio" name="" id="radioId" class="radio__input">
+                    <div class="radio__radio"></div>
+                    Pix
+                </label>
+
+                <label for="radioButton" class="radio">
+                    <input type="radio" name="" id="radioId" class="radio__input">
+                    Cartão de Crédito
+                </label>
+                 
+                <div class="btnInformar">
+                    <button onclick="abrirAlerta()" type="submit">Informar dados</button>
+                </div>
+
+                <div class="margin">
+
+                    <h1>CARTÃO DE CRÉDITO</h1>
+
+                    <div class="input-single">
+                        <label for="numberId">Número</label>
+                        <input type="number" name="valor" id="numberId" class="number__input">
+                    </div>
+
+                    <p>Número de cartão inválido</p>
+
+                    <div class="input-single">
+                        <label for="textId">Titular</label>
+                        <input type="text" name="" id="textId" class="text__input">
+                    </div>
+
+                    <div class="input-single">
+                        <label for="numberId">Cód. Segurança</label>
+                        <input type="number" name="" id="numberId" class="number__input">
+                    </div>
+
+                    <div class="input-single">
+                        <label for="dateId">Vencimento</label>
+                        <input type="date" name="" id="dateId" class="date__input">
+                    </div>
+
+                    <div class="input-single">
+                        <label for="textId">Parcelas</label>
+                        <select name="" id="parcelasId" class="parcelas__input">
+                        <option value="1x R$0,00"></option>
+                        <option value="2x R$0,00"></option>
+                        <option value="3x R$0,00"></option>
+                        <option value="4x R$0,00"></option>
+                        <option value="5x R$0,00"></option>
+                        </select>
+                    </div>
+                        
+                </div>
+
+                <h4>Total:</h4>
+
+                <div class="btnPagar">
+                    <button onclick="abrirAlerta()" type="submit">Pagar</button>
+
+                </div>
+
+</body>
+</html>
